@@ -152,6 +152,8 @@ class HBNBCommand(cmd.Cmd):
         del instance_objs[key]
         storage.save()
 
+    do_delete = do_destroy
+
     def do_all(self, arg):
         """
         Prints all string representation of all instances.
