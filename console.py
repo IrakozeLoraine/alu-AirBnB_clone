@@ -79,7 +79,7 @@ class HBNBCommand(cmd.Cmd):
             exit
         """
         return True
-    
+
     do_q = do_quit
     do_exit = do_quit
 
@@ -179,7 +179,7 @@ class HBNBCommand(cmd.Cmd):
             print(["{}".format(str(v))
                   for _, v in all_objs.items() if type(v).__name__ == args[0]])
             return
-        
+
     def remove_quotes(self, arg):
         """
         Removes the quotes from the argument.
