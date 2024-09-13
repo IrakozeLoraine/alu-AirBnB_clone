@@ -17,7 +17,7 @@ class Place(BaseModel):
         description (str): The description of the place/house
         number_rooms (int): The number of rooms in the place/house
         number_bathrooms (int): The number of bathrooms in the place/house
-        max_guest (int): The max number of guests the place/house can hold
+        maximum_guests (int): The max number of guests the place/house can hold
         price_by_night (int): The price per night for the place/house
         latitude (float): The latitude of the place/house
         longitude (float): The longitude of the place/house
@@ -29,7 +29,7 @@ class Place(BaseModel):
     description = ""
     number_rooms = 0
     number_bathrooms = 0
-    max_guest = 0
+    maximum_guests = 0
     price_by_night = 0
     latitude = 0.0
     longitude = 0.0
@@ -43,7 +43,7 @@ class Place(BaseModel):
         # self.description = Place.description
         # self.number_rooms = Place.number_rooms
         # self.number_bathrooms = Place.number_bathrooms
-        # self.max_guest = Place.max_guest
+        # self.maximum_guests = Place.maximum_guests
         # self.price_by_night = Place.price_by_night
         # self.latitude = Place.latitude
         # self.longitude = Place.longitude
