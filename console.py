@@ -79,6 +79,9 @@ class HBNBCommand(cmd.Cmd):
             exit
         """
         return True
+    
+    do_q = do_quit
+    do_exit = do_quit
 
     def emptyline(self):
         """
