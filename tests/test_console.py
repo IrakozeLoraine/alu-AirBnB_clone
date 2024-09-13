@@ -1046,7 +1046,9 @@ class TestAmenity(unittest.TestCase):
     """
 
     def setUp(self):
-        pass
+        """Setup before each test."""
+        self.amenity = Amenity()
+        self.amenity.save()
 
     def tearDown(self) -> None:
         """Resets FileStorage data."""
