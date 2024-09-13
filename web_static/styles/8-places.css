@@ -63,7 +63,7 @@ article h2 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.maximum_guests,
+.max_guest,
 .number_rooms,
 .number_bathrooms {
   display: inline-block;
