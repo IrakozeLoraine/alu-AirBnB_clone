@@ -213,7 +213,8 @@ class HBNBCommand(cmd.Cmd):
         if match_json:
             payload = None
             try:
-                payload: dict = json.loads(match_json[0])
+                payload: dict
+                payload = json.loads(match_json[0])
             except Exception:
                 print("** invalid syntax")
                 return
