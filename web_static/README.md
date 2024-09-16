@@ -1,1 +1,1 @@
-webstatic
+This directory implements webpage design.
